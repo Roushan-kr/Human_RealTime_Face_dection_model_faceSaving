@@ -29,6 +29,8 @@ Additional options:
     --set: set arbitrary cmake options e.g. --set CUDA_HOST_COMPILER=/usr/bin/gcc-6.4.0
            passes -DCUDA_HOST_COMPILER=/usr/bin/gcc-6.4.0 to CMake.
 """
+
+# added just for personal idea not treated it as related to this project 
 import errno
 import os
 import re
