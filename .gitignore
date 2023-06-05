@@ -1,0 +1,8 @@
+\image
+\sampleithomerror
+*.log
+*.jpg
+*.zip
+*.h5
+*.cfg
+*.weights
