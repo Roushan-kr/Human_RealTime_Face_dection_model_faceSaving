@@ -2,14 +2,14 @@ import cv2
 import numpy as np
 from keras.models import load_model
 
-facedetect = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+facedetect = cv2.CascadeClassifier('haarcascade_frontalface_default.xml') # use path add for this 
 
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(1) # 0 for main cam or 1 for external
 cap.set(3, 640)
 cap.set(4, 480)
 font = cv2.FONT_HERSHEY_COMPLEX
 
-model = load_model('keras_model.h5')
+model = load_model('keras_model.h5') # here you have to generate your self learnedd h5 forment ml file or use teachable machine to do it 
 
 class_names = ["person1", "person2", "person3"]
 
